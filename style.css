@@ -1,0 +1,66 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background-image: url("clothing.jpg");
+	background-size: contain;
+	height: 500px;
+}
+
+#title {
+	align-content: center;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Righteous', sans-serif;
+	font-size: 24px;
+	height: 100%;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+}
+
+#title h1 {
+	font-size: 60px;
+	margin: 0 0 20px 0;
+	width: 100%;
+}
+
+#title h2 {
+	font-size: 30px;
+	margin: 0;
+}
+
+main {
+	padding: 0 20px;
+}
+
+#event-details {
+	font-size: 36px;
+	padding: 20px 0 40px 0;
+	text-align: center;
+}
+
+.faq-question {
+	color: #50f;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+.faq-answer {
+	margin-left: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+	#title h1 {
+		font-size: 90px;
+	}
+
+	#title h2 {
+		font-size: 60px;
+	}
+}
