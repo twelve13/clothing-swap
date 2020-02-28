@@ -37,6 +37,41 @@ main {
 	padding: 0 20px;
 }
 
+h3 {
+	color: white;
+	font-size: 24px;
+	padding: 10px 5px;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+li {
+	padding: 0 0 10px 0;
+}
+
+ul li::before {
+	content: "\2B51  ";
+}
+
+ol {
+	font-size: 18px;
+}
+
+ol li {
+	counter-increment: myCounter;
+}
+
+ol li::before {
+	content: counter(myCounter);
+	display: block;
+	font-size: 28px;
+	left: -30px;
+	position: relative;
+	top: 30px;
+}
+
 #event-details {
 	font-size: 36px;
 	padding: 20px 0 40px 0;
@@ -44,14 +79,33 @@ main {
 }
 
 .faq-question {
-	color: #50f;
 	font-size: 18px;
 	font-weight: bold;
 	margin: 20px 0;
 }
 
+#drop-off .faq-question {
+	color: #50f;
+}
+
+#drop-off h3 {
+	background-color: #50f;
+}
+
+#sign-up .faq-question {
+	color: #e00074;
+}
+
+#sign-up h3 {
+	background-color: #e00074;
+}
+
 .faq-answer {
 	margin-left: 20px;
+}
+
+.dropoff-location {
+	display: inline-block;
 }
 
 
