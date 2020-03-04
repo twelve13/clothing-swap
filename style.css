@@ -33,6 +33,12 @@ header {
 	margin: 0;
 }
 
+iframe {
+	margin-top: 2%;
+	max-width: 600px;
+	width: 100%;
+}
+
 main {
 	padding: 0 20px;
 }
@@ -65,11 +71,11 @@ ol li {
 
 ol li::before {
 	content: counter(myCounter);
-	display: block;
+	display: inline-block;
 	font-size: 28px;
 	left: -30px;
 	position: relative;
-	top: 30px;
+	top: 5px;
 }
 
 #event-details {
