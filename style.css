@@ -33,6 +33,22 @@ header {
 	margin: 0;
 }
 
+#blurb {
+	font-size: 24px;
+}
+
+#blurb :nth-child(4) {
+	margin-top: 5%;
+}
+
+.charity-info {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
 iframe {
 	margin-top: 2%;
 	max-width: 600px;
@@ -40,6 +56,8 @@ iframe {
 }
 
 main {
+	margin: auto;
+	max-width: 1000px;
 	padding: 0 20px;
 }
 
